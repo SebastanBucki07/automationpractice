@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es2019",
+    "module": "commonjs",
+    "lib": ["es2020", "dom"],
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "types": ["cypress", "cypress-file-upload","cypress-real-events"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true
+  },
+  "include": [
+    "**/*.ts"
+  ]
+}
